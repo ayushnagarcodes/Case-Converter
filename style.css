@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 800px;
+  height: 745px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 68px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: 0.175em;
+  color: #111;
+}
+
+textarea {
+  height: 400px;
+  width: 800px;
+  border-radius: 5px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 24px 24px;
+  color: #F6F6F6;
+  font-size: 20px;
+  background: linear-gradient(104.21deg, #2F2F2F 28.81%, #000000 166.3%);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+textarea::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #F6F6F6;
+}
+
+#button-section {
+  display: flex;
+  gap: 25px;
+}
+
+#save-text-file {
+  margin-left: auto;
+}
+
+.button {
+  font-size: 16px;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3E8BFF;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background: none;
+  outline: 3px solid #3E8BFF;
+  color: #000;
+  font-weight: 500;
+}
+
+#icon-section {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  position: absolute;
+  top: 91px;
+  left: 71px;
+}
+
+#third-icon {
+  visibility: hidden;
+}
+
+#icon-section button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+#top-right-img {
+  width: 195px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#bottom-left-img {
+  width: 210px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

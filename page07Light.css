@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 800px;
+  height: 745px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 68px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: 0.175em;
+  color: #111;
+}
+
+textarea {
+  height: 400px;
+  width: 800px;
+  border-radius: 5px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 24px 24px;
+  color: #000;
+  font-size: 20px;
+  background: url("graphics/page06Bg.svg") no-repeat;
+  background-size: cover;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+textarea::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+#button-section {
+  display: flex;
+  gap: 25px;
+}
+
+#save-text-file {
+  margin-left: auto;
+}
+
+.button {
+  font-size: 16px;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFCB74;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.button:hover {
+  background: none;
+  outline: 3px solid #FFCB74;
+}
+
+#icon-section {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  position: absolute;
+  top: 91px;
+  left: 71px;
+}
+
+#icon-section button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}

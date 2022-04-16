@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("graphics/page03Bg.svg");
+}
+
+main {
+  width: 800px;
+  height: 745px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  width: 439px;
+  height: 46px;
+  margin-top: 68px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: 0.175em;
+  color: #111;
+  background: rgba(82, 198, 206, 0.5);
+  border-radius: 5px;
+}
+
+textarea {
+  height: 400px;
+  width: 800px;
+  border-radius: 5px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 24px 24px;
+  color: #000;
+  font-size: 20px;
+  background: rgba(246, 246, 246, 0.7);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+textarea::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+#button-section {
+  display: flex;
+  gap: 25px;
+}
+
+#save-text-file {
+  margin-left: auto;
+}
+
+.button {
+  font-size: 16px;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFE484;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.button:hover {
+  background: #f9f3ca;
+  font-weight: 500;
+  outline: 2px solid black;
+}
+
+#icon-section {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  position: absolute;
+  top: 91px;
+  left: 71px;
+}
+
+#first-icon {
+  visibility: hidden;
+}
+
+#icon-section button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: rgba(250, 250, 250, 0.8);
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  background-color: rgba(250, 250, 250, 0.5);
+}
