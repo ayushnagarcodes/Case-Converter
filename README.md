@@ -1,6 +1,7 @@
 # Case Converter
 You can see the live preview of this project [here](https://ayushnagarcodes.github.io/Case-Converter/).
 - I created this case converter project which can change the text entered to UPPER CASE, lower case, Proper Case or Sentence case.
+- You can also download the text converted as a .txt file.
 - Additionally, you can change the background, toggle between light and dark mode, and more by clicking on the icons at the left.
 - There are 3 versions of it and each version has both light and dark modes.
 <br />
